@@ -47,3 +47,19 @@ OPENCLAW_JOBS=8 \
 ```
 
 如果你在服务器环境（无桌面）部署，请使用 X11 转发、VNC 或虚拟显示环境（如 Xvfb）。
+
+---
+
+## 5. 物体识别系统（新增）
+
+仓库新增了一个基于 OpenCV 的物体识别示例，目录：
+
+- `object_recognition/detect.py`
+- `object_recognition/README.md`
+
+快速开始：
+
+```bash
+pip install -r object_recognition/requirements.txt
+python object_recognition/detect.py --source 0
+```
